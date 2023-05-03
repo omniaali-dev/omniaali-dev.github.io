@@ -143,6 +143,7 @@ animation: animate__pulse;
     padding-top:var(--section-padding);
     padding-bottom: var(--section-padding);
     display: flex;
+    gap:100px;
 }
 .whoamI .container .photo{
     margin-left: 100px;
@@ -178,7 +179,8 @@ animation: animate__pulse;
 @media(max-width:767px){
     .whoamI .container{
         display: flex;
-            flex-direction: column;
+        flex-direction: column;
+        gap:0px;
     }
     .whoamI .aboutme{
      display: flex;
@@ -232,7 +234,7 @@ animation: animate__pulse;
 
 }
 .skills{
-    background: #e0f9fe;
+    background: white
 }
 .skills .container{
     padding-top:var(--section-padding);
