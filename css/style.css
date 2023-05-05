@@ -182,6 +182,7 @@ animation: animate__pulse;
         flex-direction: column;
         gap:0px;
     }
+   
     .whoamI .aboutme{
      display: flex;
     justify-content: center;
@@ -230,12 +231,11 @@ animation: animate__pulse;
       .navbar:hover ul{
      display: flex;
      background-color: #006f8a;
+   margin-left: -16px;
+    margin-top: 11px;
    }
+}
 
-}
-.skills{
-    background: white
-}
 .skills .container{
     padding-top:var(--section-padding);
     padding-bottom:var(--section-padding);
